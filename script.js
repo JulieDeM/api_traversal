@@ -23,10 +23,10 @@ for(var i=0;i<results.length;i++){
   var createP = document.createElement('p')
   var getEl = document.getElementById('center_column');
   if (results.Search[i].Poster === "N/A"){
-    createimg.getElementByTagName("img").src = "images/no_image.png";
+    createimg.setAttribute("src","images/no_image.png")
   }
   else{
-    createimg.getElementByTagName("img").src = results.Search[i].Poster;
+    createimg.setAttribute("src",results.Search[i].Poster)
   }
   if (results.Search[i].Poster === results.Search[i].Poster){
 
