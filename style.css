@@ -2,11 +2,18 @@
   width: 150px;
   height: 221px;
 }
-
 #container{
-
+  background-color:grey;
+  border: 2px solid blue;
+  height: 700em;
+  width: 100%;
+  overflow: hidden;
 }
 
 #center_column{
-  
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  align-items: center;
+  margin: 10% auto;
 }
